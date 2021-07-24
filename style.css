@@ -1,0 +1,29 @@
+.container {
+  margin: 10px;
+  text-align: center;
+}
+button {
+  border: none;
+  background-color: transparent;
+}
+
+.button {
+  font-size: 20px;
+  color: #fff;
+  background-color: rgb(252, 40, 40);
+}
+
+nav#nav div.container .button {
+  background-color: rgb(58, 45, 235);
+}
+
+a {
+  background-color: rgb(255, 250, 118);
+}
+
+#nav div.container a.button:hover {
+  background-color: rgb(134, 250, 130);
+}
+#nav a.button:hover {
+  background-color: rgb(236, 130, 250);
+}
