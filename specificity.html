@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <script>
+      fun = () => {
+        alert("you have clicked!");
+      };
+    </script>
   </head>
   <body>
     <nav id="nav">
@@ -15,7 +20,7 @@
     </nav>
     <div class="container__body">
       <div class="container__body__btn">
-        <button>click me</button>
+        <button onclick="fun()">click me</button>
       </div>
 
       <h3 class="container__body__heading">Heading one</h3>
