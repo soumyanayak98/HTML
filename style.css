@@ -27,3 +27,38 @@ a {
 #nav a.button:hover {
   background-color: rgb(236, 130, 250);
 }
+
+.container__body__btn {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.container__body__btn button {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid rgb(255, 3, 3);
+  border-radius: 15px;
+}
+.container__body__btn button:hover {
+  transform: scale(1.2, 1.2);
+  transition: all ease-in 150ms;
+  background-color: rgb(255, 3, 3);
+  color: #fff;
+}
+
+.container__body > p {
+  background-color: rgb(111, 216, 206);
+}
+
+.container__body > p::first-letter {
+  color: rgb(253, 5, 5);
+  font-size: xx-large;
+}
+
+.container__body p::first-line {
+  font-weight: 1000;
+}
+
+.container__body h3 {
+  color: brown;
+}
