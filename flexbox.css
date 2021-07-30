@@ -30,6 +30,8 @@ a {
   right: 0;
   margin-right: 5px;
   background-color: rgb(117, 35, 128);
+  border: 1px solid black;
+  box-shadow: 3px 3px 5px rgb(83, 25, 90);
   color: white;
   padding: 5px;
   text-align: center;
